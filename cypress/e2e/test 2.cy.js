@@ -1,6 +1,6 @@
 let searched_term = "pants";
 
-describe('Search Tests', () => {
+describe('Search Tests23', () => {
   it('Search with result', () => {
     cy.visit('https://magento.softwaretestingboard.com/');
         cy.get("#search").type(searched_term + "{enter}");
